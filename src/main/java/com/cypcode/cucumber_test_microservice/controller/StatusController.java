@@ -10,4 +10,10 @@ public class StatusController {
 	public String status() {
 		return "UP";
 	}
+	
+	
+	@GetMapping("valid")
+	public String valid() {
+		return "SUCCESS";
+	}
 }

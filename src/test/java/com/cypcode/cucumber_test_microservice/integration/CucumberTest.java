@@ -7,7 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {
-		"src/test/java/com/cypcode/cucumber_test_microservice/RETRIEVE_SERVICE_STATUS.feature"
+		"src/test/java/com/cypcode/cucumber_test_microservice/RETRIEVE_SERVICE_STATUS.feature",
+		"src/test/java/com/cypcode/cucumber_test_microservice/RETRIEVE_SERVICE_VALID.feature"
 },
 glue = {
 		"com.cypcode.cucumber_test_microservice.steps",

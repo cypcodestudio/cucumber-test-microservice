@@ -1,4 +1,4 @@
-Feature: Retrieve the status is the service
+Feature: Retrieve the status in the service
 	Scenario: client makes call to GET /status
 		When the client calls /status
 		Then the client receives status code of 200
